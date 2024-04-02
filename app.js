@@ -11,8 +11,6 @@ window.addEventListener("scroll", function () {
   });
 
   navbar.classList.toggle("scrolled", currentSection !== "");
-
-  // Customize the color based on the current section
   if (currentSection === "home") {
     navbar.style.backgroundColor = "green";
   } else if (currentSection === "about") {
@@ -20,6 +18,6 @@ window.addEventListener("scroll", function () {
   } else if (currentSection === "services") {
     navbar.style.backgroundColor = "blue";
   } else {
-    navbar.style.backgroundColor = "#333"; // Default color
+    navbar.style.backgroundColor = "#333";
   }
 });

@@ -35,7 +35,7 @@ body {
 
 .section {
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   text-align: center;
